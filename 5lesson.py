@@ -7,3 +7,5 @@ for i in range(1, 21):
         print("FizzBuzz")
     else:
         print(i)
+
+# Принты пиши более красивые и понятные на пример print(f"{i} Fizz") или print(f"{i} Buzz") и добавляй комментарии к коду (это хороший тон)
