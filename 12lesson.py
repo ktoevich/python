@@ -7,3 +7,5 @@ file.close() # закрывает файл
 file = open('data/notes.txt', 'r') # открывает файл для чтения
 for line in file: #
     print(line)
+
+# Great JOB!
