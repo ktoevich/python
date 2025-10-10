@@ -8,3 +8,6 @@ def main(message): #ответ на эхо
         bot.reply_to(message, message.text) #ответ бота на сообщение пользователя
 
 bot.polling(none_stop = True) #бесконечная работа
+
+
+#  Тут тоже визуально всё ок

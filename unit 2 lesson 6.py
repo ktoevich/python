@@ -6,3 +6,6 @@ def main(message): #функция для отправки смс
     bot.send_message(message.chat.id, f'Hi, {message.from_user.first_name}') #отправляем смс с именем пользователя
     
 bot.polling(none_stop = True) #бот не останавливается
+
+
+#  Я верю что оно работет, как минимум код рабочий и ошибок нет
