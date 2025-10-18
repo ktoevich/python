@@ -1,2 +1,1 @@
-print("Hello, Felix!")
-print("Python is awesome!")
+print("Hello, Felix!", "\nPython is awesome!")

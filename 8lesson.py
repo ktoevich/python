@@ -1,0 +1,5 @@
+position = (12,15,18)
+x = int(position[0])
+y = int(position[1])
+z = int(position[2])
+print("x=", x, " y=", y, " z=", z, sep="")
