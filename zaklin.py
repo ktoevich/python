@@ -32,6 +32,7 @@ async def send_posts(message: types.Message):
         print("blok work")
         txt = [el.get_text(strip=True) for el in block]
         print(txt)
+        txt = "\n\n".join(txt)
         await message.reply(txt)
     else:
         await message.reply("Не удалось найти посты")
