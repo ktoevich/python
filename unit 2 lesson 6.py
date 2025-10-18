@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import telebot #импортируем библиотеку
 bot = telebot.TeleBot(token='8012377575:AAEGhciG9u7icMEvx5zITW9lUImsIL7aP-w') #вводим токен бота
 
@@ -6,3 +7,16 @@ def main(message): #функция для отправки смс
     bot.send_message(message.chat.id, f'Hi, {message.from_user.first_name}') #отправляем смс с именем пользователя
     
 bot.polling(none_stop = True) #бот не останавливается
+=======
+import telebot #импортируем библиотеку
+bot = telebot.TeleBot(token='8012377575:AAEGhciG9u7icMEvx5zITW9lUImsIL7aP-w') #вводим токен бота
+
+@bot.message_handler(commands=['start']) #создаем команду старт
+def main(message): #функция для отправки смс
+    bot.send_message(message.chat.id, f'Hi, {message.from_user.first_name}') #отправляем смс с именем пользователя
+    
+bot.polling(none_stop = True) #бот не останавливается
+
+
+#  Я верю что оно работет, как минимум код рабочий и ошибок нет
+>>>>>>> ae8a85ea4a64b0d6a5559a749d9dd1f2df152bf2
